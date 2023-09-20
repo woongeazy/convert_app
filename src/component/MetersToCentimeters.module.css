@@ -1,0 +1,55 @@
+header {
+    background: #7a1d79;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+}
+main {
+    padding: 1rem 0;
+}
+footer {
+    border-top: 1px solid #dfdfdf;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.wrapper {
+    max-width: 60%;
+    margin: 0 auto;
+}
+label {
+    display: block;
+}
+
+input[type="text"] {
+    width: 10rem;
+    padding: 1rem;
+    outline: none;
+}
+.btns {
+    margin-top: 1rem;
+    text-align: center;
+}
+button {
+    border: 0;
+    margin: 1rem;
+    padding: .5rem 1rem;
+}
+.inverse {
+    background: transparent;
+    border: 1px solid #7a1d79;
+    color: #000;
+    text-shadow: 0 0 1px black;
+}
+.reaset {
+    background: #7a1d79;
+    border: 1px solid #7a1d79;
+    color: #fff;
+}
+.column-b {
+    font-size: 3rem;
+    font-weight: bold;
+}
